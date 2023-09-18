@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-  <h3><b>Awesome Books With Modules</b></h3>
+  <h3><b>Math Magicians</b></h3>
 
 </div>
 
@@ -26,9 +26,12 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Awesome Books] <a name="about-project"></a>
+# 📖 [Math Magicians] <a name="about-project"></a>
 
-**[Awesome Books]** In this project I have introduced javascript modules and ES6 syntax where javascript files are created but inported in the main module using IMPORT statement.
+**[Math Magicians]** "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+
+Make simple calculations.
+Read a random math-related quote.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -36,6 +39,7 @@
 
 <details>
   <ul>
+    <li><a href="#">React.js</a></li>
     <li><a href="#">HTML</a></li>
     <li><a href="#">CSS</a></li>
     <li><a href="#">JS</a></li>
@@ -46,17 +50,13 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[How to use proper ES6 syntax and and import modules.]**
-- **[Using javascript class]**
+- **[Setup a react project]**
+- **[Using Creat-reate-app]**
 - **[Use npm as software packages system.]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](Coming Soon...)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -69,7 +69,7 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need to:
 Have a laptop,
 Install Git,
-Install npm,
+Install Node.js,
 Have a working browser,
 Have a strong internet connection,
 Install VSCode with with extentions like live server, prettier formatter etc.
@@ -83,26 +83,26 @@ Install [Node Js](https://nodejs.org/en) and [NPM](https://docs.npmjs.com/cli/v6
 Open your commandline (if your are on windows ) or Terminal (if you are on Mac or Linux) and paste this command:
 
 ```sh
-git clone https://github.com/enocol/Awesomebooks
+git clone https://github.com/enocol/math-magicians
 ```
 
-then you will see the **Awesomebooks** on your system then type this:
+then you will see the **Math-margicians** on your system then type this:
 
 ```sh
-cd awesome-books-ES6
+cd math-margicians
 ```
 
 Now you successfully installed it.
 
 ### Usage
 
-Inside **Awesomebooks** you can see `index.html` file double click it
-to open it inside your browser.
+Inside **math-margicians** on a terminal, type npm i to install dependencies
+After dependencies are installed, type npm start
 
 ### Run tests
 
 To run tests, run the following command:
-Use browser like chrome by clicking on the link or use live server built in VSCode
+in a ternimal, type npm run test
 
 ### Deployment
 
@@ -125,8 +125,10 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Mobile Version]**
-- [ ] **[Contact form]**
+- [ ] **[Create components to render]**
+- [ ] **[Handle Events]**
+- [ ] **[Fetch data from API]**
+- [ ] **[Full website]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
