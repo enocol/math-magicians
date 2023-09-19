@@ -5,7 +5,6 @@
 }
 
 .container {
-  border: 2px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,12 +14,11 @@
 .section {
   display: grid;
   grid-template-columns: repeat(4, 70px);
-  border: 1px solid blue;
   grid-template-rows: repeat(5, 50px);
 }
 
 .items {
-  border: 1px solid red;
+  margin: 0.5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,9 +28,28 @@
   grid-column-start: 1;
   grid-column-end: 5;
   width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px;
+  margin: 0.5;
+  color: white;
 }
 
 .item17 {
   grid-column-start: 1;
   grid-column-end: 4;
+  height: 50px;
+}
+
+.gray-bg {
+  background-color: lightslategray;
+}
+
+.golden-bg {
+  background-color: orange;
+}
+
+.light-bg {
+  background-color: lightgray;
 }
