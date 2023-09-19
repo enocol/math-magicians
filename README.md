@@ -50,8 +50,8 @@ Read a random math-related quote.
 
 ### Key Features <a name="key-features"></a>
 
-- **[Setup a react project]**
-- **[Using Creat-reate-app]**
+- **[Calcultor component]**
+- **[Beautiful UI of a Calculator]**
 - **[Use npm as software packages system.]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -125,7 +125,6 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Create components to render]**
 - [ ] **[Handle Events]**
 - [ ] **[Fetch data from API]**
 - [ ] **[Full website]**
