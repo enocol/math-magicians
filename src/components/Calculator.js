@@ -1,12 +1,13 @@
+import React from 'react';
 import Results from './Results';
 
 const Calculator = () => (
   <div className="container">
     <section className="section">
       <Results />
-      <div className="items item1">1</div>
-      <div className="items item2">2</div>
-      <div className="items item3">3</div>
+      <div className="items item1">AC</div>
+      <div className="items item2">+/-</div>
+      <div className="items item3">%</div>
       <div className="items item4">/</div>
       <div className="items item5">4</div>
       <div className="items item6">6</div>
