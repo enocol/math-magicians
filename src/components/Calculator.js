@@ -3,9 +3,12 @@ import PropTypes from 'prop-types';
 const Calculator = ({ onClick, state }) => (
   <div className="container">
     <section className="section">
-      <div className="results gray-bg">
-        {state.next || state.total || state.operation || 0}
+      <div className="results gray-bg flex-container">
+        <div className="flex-items">{state.total || null}</div>
+        <div className="flex-items">{state.operation}</div>
+        <div className="flex-items">{state.next}</div>
       </div>
+
       <button
         type="button"
         className="items item1 light-bg"
