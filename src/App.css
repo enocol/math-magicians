@@ -53,3 +53,8 @@
 .light-bg {
   background-color: lightgray;
 }
+
+button {
+  border: none;
+  outline: none;
+}
