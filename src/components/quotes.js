@@ -5,25 +5,33 @@ const apiEndPoint = 'https://api.api-ninjas.com/v1/quotes?category=happiness';
 
 const Quotes = ({ state }) => {
   const [quotes, setQuotes] = useState([]);
+  const [hasError, sethasError] = useState(false);
   const [isLoading, setisLoading] = useState(false);
 
   useEffect(() => {
-    setisLoading(true);
     const fetchdata = async () => {
-      const response = await fetch(apiEndPoint, {
-        method: 'GET',
-        headers: { 'X-Api-Key': 'W/zMTLroAOA81Nucjpne5Q==U3ljJp1yuKP3U8tD' },
-      });
-      const json = await response.json();
+      setisLoading(true);
+      try {
+        const response = await fetch(apiEndPoint, {
+          method: 'GET',
+          headers: { 'X-Api-Key': 'W/zMTLroAOA81Nucjpne5Q==U3ljJp1yuKP3U8tD' },
+        });
+        const json = await response.json();
 
-      setQuotes(json);
+        setQuotes(json);
+      } catch (error) {
+        sethasError(true);
+      }
+
       setisLoading(false);
     };
 
     fetchdata();
   }, [setQuotes, setisLoading, state.total]);
 
-  if (isLoading) return <div className="loading">Loading......</div>;
+  if (hasError) return <div className="status">An error occured</div>;
+
+  if (isLoading) return <div className="status">Loading......</div>;
 
   return (
     <div className="quote">
