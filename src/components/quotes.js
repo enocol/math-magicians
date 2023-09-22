@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 
-const apiEndPoint = 'https://api.api-ninjas.com/v1/quotes?category=happiness';
+const apiEndPoint = 'https://api.api-ninjas.com/v1/quotes?category=computers';
 
 const Quotes = ({ state }) => {
   const [quotes, setQuotes] = useState([]);
