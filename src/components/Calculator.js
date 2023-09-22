@@ -139,7 +139,7 @@ const Calculator = ({ onClick, state }) => (
         </button>
       </section>
     </div>
-    <Quotes />
+    <Quotes state={state} />
   </div>
 );
 
@@ -147,11 +147,7 @@ export default Calculator;
 
 Calculator.propTypes = {
   onClick: PropTypes.func.isRequired,
-  state: {
-    total: PropTypes.number,
-    next: PropTypes.string,
-    operation: PropTypes.string,
-  },
+  state: PropTypes.string,
 };
 
 Calculator.defaultProps = {
