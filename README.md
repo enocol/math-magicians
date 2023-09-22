@@ -53,6 +53,9 @@ Read a random math-related quote.
 - **[Calcultor component]**
 - **[Beautiful UI of a Calculator]**
 - **[Use npm as software packages system.]**
+- **[Display randon quotes at the botton of the calculator]**
+- **[Showing a loading status to the user during fetch]**
+- **[Showing a error status to the user if an error occurs]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,8 +128,6 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Handle Events]**
-- [ ] **[Fetch data from API]**
 - [ ] **[Full website]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
