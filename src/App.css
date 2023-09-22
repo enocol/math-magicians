@@ -70,3 +70,10 @@ button {
   text-align: center;
   font-weight: bolder;
 }
+
+.loading {
+  margin: 0 auto;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+}
