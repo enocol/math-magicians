@@ -22,9 +22,9 @@
     "import/no-extraneous-dependencies": [
       "error",
       {
-        "devDependencies": true,
+        "devDependencies": false,
         "optionalDependencies": false,
-        "peerDependencies": true
+        "peerDependencies": false
       }
     ],
     "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
