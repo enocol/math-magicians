@@ -81,7 +81,8 @@ button {
 }
 
 .status {
-  margin: 0 auto;
+  margin: 100px auto;
+  padding: 50px;
   font-weight: bolder;
   font-size: 20px;
   text-align: center;
@@ -132,8 +133,4 @@ button {
 .p1 {
   margin: 20px 0;
   width: 70%;
-}
-
-.status {
-  margin: 100px;
 }
