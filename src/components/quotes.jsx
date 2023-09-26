@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 
-const apiEndPoint = 'https://api.api-ninjas.com/v1/quotes?category=money';
+const apiEndPoint = 'https://api.api-ninjas.com/v1/quotes?category=computers';
 
 const Quotes = ({ state }) => {
   const [quotes, setQuotes] = useState([]);
@@ -13,7 +13,12 @@ const Quotes = ({ state }) => {
       setisLoading(true);
       try {
         const response = await fetch(apiEndPoint, {
-          headers: { 'X-Api-Key': 'TyEBFPiF8gsxAoUo4A5QdSj4H0r7ODyuEHFPT2D0' },
+          headers: {
+            'X-Api-Key': 'TyEBFPiF8gsxAoUo4A5QdSj4H0r7ODyuEHFPT2D0',
+            'Content-Type': 'text/plain;charset=UTF-8',
+          },
+          mode: 'cors',
+          redirect: 'follow',
         });
 
         const json = await response.json();
