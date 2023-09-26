@@ -51,11 +51,11 @@ Read a random math-related quote.
 ### Key Features <a name="key-features"></a>
 
 - **[Calcultor component]**
-- **[Beautiful UI of a Calculator]**
-- **[Use npm as software packages system.]**
-- **[Display randon quotes at the botton of the calculator]**
-- **[Showing a loading status to the user during fetch]**
-- **[Showing a error status to the user if an error occurs]**
+- **[Home page compoent]**
+- **[Home page compenent]**
+- **[Navigation bar with links]**
+- **[Showing pages using React Router]**
+- **[Showing a loading and error status if an error occurs]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,7 +128,7 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Full website]**
+- [ ] **[Contact component]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
