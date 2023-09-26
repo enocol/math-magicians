@@ -15,7 +15,7 @@ const Calculator = () => {
   return (
     <div className="math-container">
       <div className="container">
-        <h2 className="heading">Lets do some math</h2>
+        <h2 className="heading">Lets do some Math</h2>
         <section className="section">
           <div className="results gray-bg flex-container">
             <div className="flex-items">{state.total || 0}</div>
