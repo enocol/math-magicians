@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Results component renders correctly with a different number value 1`] = `
+<DocumentFragment>
+  <div
+    class="results gray-bg"
+  >
+    123
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Results component renders correctly with a number value 1`] = `
+<DocumentFragment>
+  <div
+    class="results gray-bg"
+  >
+    42
+  </div>
+</DocumentFragment>
+`;
