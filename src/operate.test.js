@@ -27,7 +27,7 @@ describe('operate', () => {
 
   it('should handle modulo with divisor zero', () => {
     expect(operate('7', '0', '%')).toBe(
-      "Can't find modulo as can't divide by 0."
+      "Can't find modulo as can't divide by 0.",
     );
   });
 

@@ -1,4 +1,4 @@
-import calculate from './logic/calculate.js';
+import calculate from './logic/calculate';
 
 describe('calculate', () => {
   it('should clear the calculator when "AC" button is pressed', () => {
@@ -20,7 +20,7 @@ describe('calculate', () => {
 
     const result3 = calculate(
       { total: '10', next: '5.5', operation: '+' },
-      '.'
+      '.',
     );
     expect(result3).toEqual({ total: '10', next: '5.5', operation: '+' });
   });
@@ -33,7 +33,7 @@ describe('calculate', () => {
   it('should toggle the sign when "+/-" is pressed', () => {
     const result = calculate(
       { total: null, next: '5', operation: null },
-      '+/-'
+      '+/-',
     );
     expect(result).toEqual({ total: null, next: '-5', operation: null });
   });
