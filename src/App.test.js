@@ -40,6 +40,4 @@ describe('calculate', () => {
     );
     expect(result).toEqual({ total: null, next: '-5', operation: null });
   });
-
-  // Add more test cases for other scenarios
 });
