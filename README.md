@@ -135,7 +135,7 @@ You can deploy this project using:
 
 <!-- CONTRIBUTING -->
 
-live Demo link <h5><a href="https://calculator-gwnw.onrender.com/quotes">Live Demo</a></h5>
+live Demo link <h5><a href="https://calculator-gwnw.onrender.com/">Live Demo</a></h5>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
