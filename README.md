@@ -111,7 +111,8 @@ in a ternimal, type npm run test
 
 You can deploy this project using:
 
-**Github Pages**
+**Renda**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,6 +134,8 @@ You can deploy this project using:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
+
+live Demo link <a href="https://calculator-gwnw.onrender.com/quotes">Live Demo</a>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
